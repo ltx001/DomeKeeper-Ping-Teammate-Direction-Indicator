@@ -1,0 +1,35 @@
+[h1]Team Ping HUD[/h1]
+
+Adds clear co-op navigation indicators for online and local split-screen multiplayer.
+
+[list]
+[*]Cyan edge arrows point toward off-screen teammates.
+[*]Yellow arrows and diamond markers show synchronized player pings.
+[*]Short press: 60-second ping.
+[*]Long press: 5-minute ping.
+[*]Ping again near your marker to cancel it.
+[*]Native key binding entry under Settings > Key Bindings > General.
+[/list]
+
+[b]Default controls:[/b] Middle mouse button / Right-stick click (R3 or RS)
+
+[h1]Important[/h1]
+Community script mods require the staging branch and Mod Loader Patcher:
+https://github.com/LeonardoLuca/dome-keeper-coop-mod-patcher/releases/latest
+
+Source code and manual download:
+https://github.com/ltx001/DomeKeeper-TeamPingHud
+
+[h1]中文说明[/h1]
+
+为在线联机和本地分屏添加屏幕边缘队友箭头及同步位置标点。
+
+[list]
+[*]青色箭头指向屏幕外的队友。
+[*]黄色箭头和菱形标记显示玩家标点。
+[*]短按保留 60 秒，长按保留 5 分钟。
+[*]在已有标点附近再次按下可取消标点。
+[*]可在游戏原生按键绑定界面修改按键。
+[/list]
+
+[b]默认按键：[/b]鼠标中键 / 右摇杆按下（R3 或 RS）

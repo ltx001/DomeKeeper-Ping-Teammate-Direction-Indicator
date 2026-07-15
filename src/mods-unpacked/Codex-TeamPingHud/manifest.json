@@ -1,0 +1,61 @@
+{
+	"name": "TeamPingHud",
+	"namespace": "Codex",
+	"version_number": "0.4.0",
+	"description": "Adds edge HUD arrows for teammates and synchronized player pings.",
+	"website_url": "https://github.com/ltx001/DomeKeeper-TeamPingHud",
+	"dependencies": [],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": ["ltx001"],
+			"compatible_mod_loader_version": ["7.0.1"],
+			"compatible_game_version": ["5.0.0"],
+			"config_schema": {
+				"type": "object",
+				"properties": {
+					"enabled": {
+						"type": "boolean",
+						"default": true
+					},
+					"show_teammate_arrows": {
+						"type": "boolean",
+						"default": true
+					},
+					"show_ping_arrows": {
+						"type": "boolean",
+						"default": true
+					},
+					"show_on_screen_pings": {
+						"type": "boolean",
+						"default": true
+					},
+					"hold_threshold_seconds": {
+						"type": "number",
+						"default": 0.45
+					},
+					"short_ping_seconds": {
+						"type": "number",
+						"default": 60.0
+					},
+					"long_ping_seconds": {
+						"type": "number",
+						"default": 300.0
+					},
+					"cancel_radius_pixels": {
+						"type": "number",
+						"default": 48.0
+					},
+					"edge_margin_pixels": {
+						"type": "number",
+						"default": 24.0
+					},
+					"arrow_size_pixels": {
+						"type": "number",
+						"default": 20.0
+					}
+				}
+			}
+		}
+	}
+}

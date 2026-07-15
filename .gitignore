@@ -1,0 +1,13 @@
+/*
+!/.gitignore
+!/LICENSE
+!/README.md
+!/package.ps1
+!/src/
+/src/*
+!/src/mods-unpacked/
+/src/mods-unpacked/*
+!/src/mods-unpacked/Codex-TeamPingHud/
+!/src/mods-unpacked/Codex-TeamPingHud/**
+!/workshop/
+!/workshop/**
