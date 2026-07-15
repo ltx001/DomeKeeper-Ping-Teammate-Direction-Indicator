@@ -1,9 +1,9 @@
 {
 	"name": "TeamPingHud",
 	"namespace": "Codex",
-	"version_number": "0.4.0",
-	"description": "Adds edge HUD arrows for teammates and synchronized player pings.",
-	"website_url": "https://github.com/ltx001/DomeKeeper-TeamPingHud",
+	"version_number": "0.4.1",
+	"description": "Co-op direction indicators for off-screen teammates and synchronized player pings.",
+	"website_url": "https://github.com/ltx001/DomeKeeper-Ping-Teammate-Direction-Indicator",
 	"dependencies": [],
 	"extra": {
 		"godot": {

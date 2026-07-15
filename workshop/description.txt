@@ -1,35 +1,49 @@
-[h1]Team Ping HUD[/h1]
+[h1]Ping&Teammate direction indicator[/h1]
 
-Adds clear co-op navigation indicators for online and local split-screen multiplayer.
+A lightweight co-op HUD mod for Dome Keeper. It adds edge indicators for off-screen teammates and synchronized position pings for online and local split-screen multiplayer.
 
+[h2]Features[/h2]
 [list]
-[*]Cyan edge arrows point toward off-screen teammates.
-[*]Yellow arrows and diamond markers show synchronized player pings.
-[*]Short press: 60-second ping.
-[*]Long press: 5-minute ping.
-[*]Ping again near your marker to cancel it.
-[*]Native key binding entry under Settings > Key Bindings > General.
+[*]Cyan edge chevrons point toward off-screen teammates.
+[*]Yellow edge chevrons and diamond markers show player pings.
+[*]Short presses create 60-second pings; long presses create 5-minute pings.
+[*]Pressing ping again near your existing marker cancels it.
+[*]Every local split-screen player receives an independent overlay.
+[*]Ping bindings appear under Settings > Key Bindings > General > Team Ping.
+[*]Default controls: middle mouse button and right-stick click (R3/RS).
 [/list]
 
-[b]Default controls:[/b] Middle mouse button / Right-stick click (R3 or RS)
+Pings mark the Keeper's current position, rather than the mouse cursor or aim point.
 
-[h1]Important[/h1]
-Community script mods require the staging branch and Mod Loader Patcher:
-https://github.com/LeonardoLuca/dome-keeper-coop-mod-patcher/releases/latest
+[h2]IMPORTANT[/h2]
+In the default Steam release of Dome Keeper, community mods do not load automatically. To use this mod, you must first apply the Mod Loader Patcher, which enables compatible Workshop mods to load in the game.
 
-Source code and manual download:
-https://github.com/ltx001/DomeKeeper-TeamPingHud
+[h2]STEP-BY-STEP INSTALLATION[/h2]
 
-[h1]中文说明[/h1]
+1. Click the "+ Subscribe" button on this Workshop page.
 
-为在线联机和本地分屏添加屏幕边缘队友箭头及同步位置标点。
+2. In your Steam Library, right-click Dome Keeper -> Properties -> Betas -> change Beta Participation to "staging".
+Steam will download a small update.
 
+3. Download the Mod Loader Patcher here:
+https://github.com/LeonardoLuca/dome-keeper-coop-mod-patcher/releases/latest/download/DomeKeeper_ModPatcher.zip
+
+4. Extract the entire contents of the downloaded ZIP file directly into your game's installation folder, where "domekeeper.pck" is located.
+Tip: In Steam, right-click the game -> Manage -> Browse local files.
+
+5. Make sure the game is closed, then double-click "instalar_mod.bat".
+The patcher will:
 [list]
-[*]青色箭头指向屏幕外的队友。
-[*]黄色箭头和菱形标记显示玩家标点。
-[*]短按保留 60 秒，长按保留 5 分钟。
-[*]在已有标点附近再次按下可取消标点。
-[*]可在游戏原生按键绑定界面修改按键。
+[*]create a backup of your original game file
+[*]create a safety backup of your save data
+[*]enable the Mod Loader
+[*]install the Shared Upgrades mod
 [/list]
 
-[b]默认按键：[/b]鼠标中键 / 右摇杆按下（R3 或 RS）
+6. Launch the game and enjoy.
+After the patcher is installed, this mod will load automatically from the Steam Workshop.
+
+[i]Note: If Dome Keeper updates through Steam, run "instalar_mod.bat" again to reapply the patcher if necessary.[/i]
+
+[h2]Source code and manual download[/h2]
+https://github.com/ltx001/DomeKeeper-Ping-Teammate-Direction-Indicator
