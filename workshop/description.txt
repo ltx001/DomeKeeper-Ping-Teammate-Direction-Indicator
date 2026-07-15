@@ -16,7 +16,7 @@ A lightweight co-op HUD mod for Dome Keeper. It adds edge indicators for off-scr
 Pings mark the Keeper's current position, rather than the mouse cursor or aim point.
 
 [h2]IMPORTANT[/h2]
-In the default Steam release of Dome Keeper, community mods do not load automatically. To use this mod, you must first apply the Mod Loader Patcher, which enables compatible Workshop mods to load in the game.
+The default Steam release of Dome Keeper does not load community mods. Use the independent, auditable Dome Keeper Mod Loader Enabler with the Steam "staging" build. It activates the Godot Mod Loader already included with the game and does not install or bundle any mod.
 
 [h2]STEP-BY-STEP INSTALLATION[/h2]
 
@@ -25,25 +25,24 @@ In the default Steam release of Dome Keeper, community mods do not load automati
 2. In your Steam Library, right-click Dome Keeper -> Properties -> Betas -> change Beta Participation to "staging".
 Steam will download a small update.
 
-3. Download the Mod Loader Patcher here:
-https://github.com/LeonardoLuca/dome-keeper-coop-mod-patcher/releases/latest/download/DomeKeeper_ModPatcher.zip
+3. Download the latest Dome Keeper Mod Loader Enabler release:
+[url=https://github.com/ltx001/DomeKeeper-ModLoader-Enabler/releases/latest]Dome Keeper Mod Loader Enabler[/url]
 
-4. Extract the entire contents of the downloaded ZIP file directly into your game's installation folder, where "domekeeper.pck" is located.
-Tip: In Steam, right-click the game -> Manage -> Browse local files.
+4. Extract the complete release ZIP to any normal folder.
 
-5. Make sure the game is closed, then double-click "instalar_mod.bat".
-The patcher will:
+5. Make sure Dome Keeper is closed, then double-click "Enable Mod Loader.bat".
+The tool will:
 [list]
-[*]create a backup of your original game file
-[*]create a safety backup of your save data
-[*]enable the Mod Loader
-[*]install the Shared Upgrades mod
+[*]automatically find your Steam installation
+[*]verify the exact staging Build ID and file hashes
+[*]keep the original PCK as a recovery backup
+[*]enable local and Steam Workshop mod loading
 [/list]
 
 6. Launch the game and enjoy.
-After the patcher is installed, this mod will load automatically from the Steam Workshop.
+After the enabler is applied, this subscribed mod will load automatically from the Steam Workshop.
 
-[i]Note: If Dome Keeper updates through Steam, run "instalar_mod.bat" again to reapply the patcher if necessary.[/i]
+[i]The enabler changes no save data and installs no other mods. Use "Check Status.bat" to verify its state and "Disable Mod Loader.bat" to restore the exact original Steam PCK. After a Dome Keeper update, download an enabler release that explicitly supports the new Build ID.[/i]
 
 [h2]Source code and manual download[/h2]
 https://github.com/ltx001/DomeKeeper-Ping-Teammate-Direction-Indicator
