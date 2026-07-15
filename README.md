@@ -22,7 +22,7 @@ In the default Steam release of Dome Keeper, community mods do not load automati
 
 ## Step-by-step installation
 
-1. Click the `+ Subscribe` button on the Steam Workshop page.
+1. Click the `+ Subscribe` button on the [Steam Workshop page](https://steamcommunity.com/sharedfiles/filedetails/?id=3765500877).
 2. In your Steam Library, right-click Dome Keeper, select `Properties > Betas`, then change Beta Participation to `staging`. Steam will download a small update.
 3. Download [DomeKeeper_ModPatcher.zip](https://github.com/LeonardoLuca/dome-keeper-coop-mod-patcher/releases/latest/download/DomeKeeper_ModPatcher.zip).
 4. Extract the entire ZIP into the game installation folder where `domekeeper.pck` is located. In Steam, use `Dome Keeper > Manage > Browse local files` to find it.
